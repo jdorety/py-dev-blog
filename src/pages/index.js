@@ -22,7 +22,7 @@ export default ({ data }) => (
 )
 export const pageQuery = graphql`
 query MyQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
     edges {
       node {
         id
