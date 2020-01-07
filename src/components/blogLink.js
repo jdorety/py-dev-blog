@@ -8,7 +8,6 @@ export default props => {
     <Link to={props.path}>
       <div className="blog-link">
         <h3>{props.title}</h3>
-        <span>{props.author}</span>
       </div>
     </Link>
   )
