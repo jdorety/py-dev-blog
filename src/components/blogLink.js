@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./blogLink.css"
+import "./blogLink.scss"
 
 export default props => {
   return (
