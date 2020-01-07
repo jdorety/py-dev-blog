@@ -1,7 +1,7 @@
 import Typography from "typography"
-import fairyGateTheme from "typography-theme-fairy-gates"
+import parnassusTheme from "typography-theme-parnassus"
 
-const typography = new Typography(fairyGateTheme)
+const typography = new Typography(parnassusTheme)
 
 export const { scale, rhythm, options } = typography
 export default typography
