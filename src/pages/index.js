@@ -21,18 +21,21 @@ export default ({ data }) => (
   </Layout>
 )
 export const pageQuery = graphql`
-  query MyQuery {
-    allMarkdownRemark {
-      edges {
-        node {
-          id
-          frontmatter {
-            author
-            title
-            path
-          }
+query MyQuery {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          author
+          date
+          path
+          title
         }
       }
     }
   }
+}
+
 `
