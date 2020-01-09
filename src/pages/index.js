@@ -1,13 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
 import BlogLink from "../components/blogLink"
-
 import Layout from "../components/layout/layout"
+import "./index.scss"
 
 export default ({ data }) => (
   <Layout>
     <h1>Welocome to the PyClock2 Development Blog</h1>
-    <p></p>
+    <p>
+      This is a blog for the project that really pushed me into the world of
+      software development
+    </p>
     {data.allMarkdownRemark.edges.map(post => {
       return (
         <BlogLink
@@ -21,21 +24,20 @@ export default ({ data }) => (
   </Layout>
 )
 export const pageQuery = graphql`
-query MyQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
-    edges {
-      node {
-        id
-        html
-        frontmatter {
-          author
-          date
-          path
-          title
+  query MyQuery {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: ASC }) {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            author
+            date
+            path
+            title
+          }
         }
       }
     }
   }
-}
-
 `
