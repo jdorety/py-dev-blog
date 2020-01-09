@@ -1,13 +1,15 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout/layout"
+import "./blogPost.scss"
 
-export default function Template({ data }) {
+export default function Template({ data, pageContext }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-
+  const { next, previous } = pageContext
   return (
     <Layout>
+      {console.log(data, pageContext)}
       <div className="blog-post-wrapper">
         <div className="blog-post">
           <h2>{frontmatter.title}</h2>
@@ -16,6 +18,18 @@ export default function Template({ data }) {
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <span className="author">-{frontmatter.author}</span>
+        </div>
+        <div className="post-links">
+          {next && (
+            <Link className="next-button" to={next.frontmatter.path}>
+              Newer Post
+            </Link>
+          )}
+          {previous && (
+            <Link className="previous-button" to={previous.frontmatter.path}>
+              Older Post
+            </Link>
+          )}
         </div>
       </div>
     </Layout>
