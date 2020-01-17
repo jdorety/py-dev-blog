@@ -5,8 +5,8 @@ import Header from "../components/header/header"
 export default () => (
   <div style={{ color: `teal` }}>
     <Layout>
-      <Header headerText="About Gatsby" />
-      <p>Such wow. Very React.</p>
+      <Header headerText="Jonathan Dorety" />
+      <p>I'm a software engineer who likes to play with hardware on the side!</p>
     </Layout>
   </div>
 )
