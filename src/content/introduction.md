@@ -1,7 +1,8 @@
 ---
-title: Introduction to the PyClock
+title: The Beginning
 author: Jonathan Dorety
 path: "/content/introduction"
+date: 01/03/2020
 ---
 
 Software development has always been something I've been interested in. As a freshman in college, I declared my intended major to be Computer Science. That didn't work out for me. I ended up spending some time in the filmmaking world, and then I went to culinary school at my community college, and started a career in kitchens.

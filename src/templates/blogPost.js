@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Header from "../components/header/header"
 import Layout from "../components/layout/layout"
 import "./blogPost.scss"
 
@@ -12,7 +13,7 @@ export default function Template({ data, pageContext }) {
       {console.log(data, pageContext)}
       <div className="blog-post-wrapper">
         <div className="blog-post">
-          <h2>{frontmatter.title}</h2>
+          <Header headerText={frontmatter.title} />
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
