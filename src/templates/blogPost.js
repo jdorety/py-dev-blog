@@ -13,12 +13,14 @@ export default function Template({ data, pageContext }) {
       {console.log(data, pageContext)}
       <div className="blog-post-wrapper">
         <div className="blog-post">
-          <Header headerText={frontmatter.title} />
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <span className="author">-{frontmatter.author}</span>
+          <article>
+            <Header headerText={frontmatter.title} />
+            <div
+              className="blog-post-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+            <span className="author">-{frontmatter.author}</span>
+          </article>
         </div>
         <div className="post-links">
           {next && (
