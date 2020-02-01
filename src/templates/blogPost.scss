@@ -1,8 +1,28 @@
+@import "../styles/variables.scss";
+
+.blog-post {
+  background-color: $secondary-color;
+  padding: 5px 5%;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
 .post-links {
-  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 90px;
+  margin-top: 10px;
+
+  .nav-posts {
+    background-color: $link-background;
+    color: $link-color;
+    padding: 2%;
+    border: 1px solid $smokey-black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px $dark-color;
+
+  }
 
   .next-button {
     position: absolute;
