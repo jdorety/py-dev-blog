@@ -39,5 +39,15 @@ module.exports = {
         path: `${__dirname}/src/content`,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "PyClock2 Development Blog",
+        short_name: "PyClock2 Dev Blog",
+        start_url: "/",
+        icon: "src/assets/clock.svg"
+      }
+
+    },
   ],
 }

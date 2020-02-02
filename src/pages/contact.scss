@@ -1,6 +1,12 @@
+@import "../styles/variables.scss";
+
 .contacts {
-  a {
+  .contact-links {
     display: flex;
     flex-direction: column;
+
+    a {
+      color: $canary;
+    }
   }
 }
