@@ -1,13 +1,17 @@
 @import "../styles/variables.scss";
 
 .blog-link {
-  background-color: $link-background;
+  background-color: $dark-color;
   border-radius: 15px;
   padding-left: 15px;
 
   h3 {
-    color: $link-color;
+    color: $light-color;
     margin-top: 20px;
     padding: 10px;
+  }
+
+  :hover {
+    color: $canary;
   }
 }
