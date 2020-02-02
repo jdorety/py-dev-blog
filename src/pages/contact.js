@@ -7,9 +7,11 @@ export default () => (
   <div class="contacts">
     <Layout>
       <Header headerText="Contact" />
-      <a href="https://jonathan.dorety.dev">My Portfolio Page</a>
-      <a href="https://github.com/kyullog">My GitHub Profile</a>
-      <a href="https://www.linkedin.com/in/doretydev/">My LinkedIn</a>
+      <div className="contact-links">
+        <a href="https://jonathan.dorety.dev">My Portfolio Page</a>
+        <a href="https://github.com/jdorety">My GitHub Profile</a>
+        <a href="https://www.linkedin.com/in/doretydev/">My LinkedIn</a>
+      </div>
     </Layout>
   </div>
 )
