@@ -1,3 +1,43 @@
+@import "../styles/variables.scss";
+
 h1 {
   font-size: 3.5rem;
+  color: $light-color;
+  margin: 0;
+}
+
+.post-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px dashed $dark-color;
+  padding-top: 20px;
+}
+
+.blog-column {
+  width: 60%;
+}
+
+.tech-logos {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  img {
+    height: 100px;
+  }
+}
+
+#site-header {
+  padding: 3%;
+  // background-image: linear-gradient(to right, $base-color, $accent-color);
+  background-color: $dark-color;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
 }
