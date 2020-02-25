@@ -1,9 +1,13 @@
 @import "../styles/variables.scss";
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: $light-color;
   margin: 0;
+
+  @media (max-width: 400px) {
+    font-size: 1.5rem;
+  }
 }
 
 .post-list-wrapper {
@@ -11,10 +15,18 @@ h1 {
   justify-content: space-between;
   border-top: 2px dashed $dark-color;
   padding-top: 20px;
+
+  @media (max-width: 400px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .blog-column {
   width: 60%;
+
+  @media (max-width: 400px) {
+    width: 99%;
+  }
 }
 
 .tech-logos {
@@ -25,6 +37,12 @@ h1 {
 
   img {
     height: 100px;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+    border-bottom: 2px dashed $dark-color;
+    align-items: baseline;
   }
 }
 
