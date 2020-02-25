@@ -5,32 +5,16 @@ path: "/content/introduction"
 date: 01/03/2020
 ---
 
-Software development has always been something I've been interested in. As a freshman in college, I declared my intended major to be Computer Science. That didn't work out for me. I ended up spending some time in the filmmaking world, and then I went to culinary school at my community college, and started a career in kitchens.
+On my daughter's second birthday, she got to start sleeping in a regular bed. Soon after this, it became apparent that she had no concept of time beyond "the sun is up", and "the moon is up". This wasn't much of a problem during bedtime, as I was fully awake and capable of enforcing compliance. Wakeup time was trickier, my wife and I discovered.
 
-I had a great time as a cook; but once my daughter was born, I had to reprioritize my life, to say the least. So, I started looking into other career fields, and ended up right back at software development. The idea of going back to school was pretty daunting, and I wasn't really sure I wanted to attempt the regular college approach again anyway.
+Every other morning, my daughter would wake us up a full hour or two before our usual routine. Now that she wasn't in her crib, she was free to come and get us whenever it felt appropriate to her. I thought briefly about trying to teach her to read a digital clock, and then remembered that she was two.
 
-#### The Journey Begins...
+At this time, I was teaching myself Python during my free time. I was also tinkering around with hardware projects centered around the Raspberry Pi single-board computer. One day, something clicked, and I thought "I will build a clock that a two-year-old can understand!" I looked online to see what kinds of things people had come up with, and most of them were very simple, generally involving a light that would change colors based on the time of day.
 
-So, I decided I'd teach myself. After all, the internet has opened up access to a staggering amount of resources. And a lot of it was free, or at least releatively inexpensive. I snapped up every Humble Book Bundle that came along that had anything to do with coding.
+I don't know why, but that sounded boring. My mind started going wild with the possiblities. Instead of colors, I would use actual pictures for my clock, and on holidays, a special picture would appear for the day! Finally, I had found a project to work on that involved more than following the steps in a tutorial.
 
-Also, around this time, I got a Raspbery Pi 2, and started messing around with it, following along with various project tutorials. After a while, I ran out of interesting things to do, and set it aside.
-
-#### Linux Lights a fire
-
-While making things with my Raspberry Pi, I ended up using Raspian a lot, which is the official operating system for the little computer. It's a Debian-based Linux distrubtion, and it was the straw that broke the camel's back. Without realizing it, I was constantly looking up tutorials on how to do things in Linux, and one day, I decide maybe I could use it on my regular computer, instead of Windows.
-
-I challenged myself to install Linux Mint, and then learn to use it for everything I usually did on the computer (excepting a wide swath of games, but that's what dual-booting is for). I was amazed at how far Linux had come since I had first experimented with it back in the early 'aughts. Soon, I was using Linux almost exclusively, which was feeding my curiosity about computers.
-
-This curiosity lead to several attempts at learning Python, which I had decided was the best programming language for me to start with. I got about a third of the way through two books, and one video lecture series, but would stall out and stop going through the material.
-
-#### Please Go Back To Bed
-
-Eventually, I took stock of myself, and came up with some strategies for breaking through the wall that had gotten in the way of my dreams of becoming a developer. One of those strategies was to build a Raspberry Pi project that didn't have a ready-made tutorial to follow.
-
-Thankfully, my daughter, who was now a toddler, helped me out. She was at the age where she had a bed, but had no concept of time. So, she'd come in our bedroom at all hours, thinking it was time to get up, even if it was 3 in the morning. Her room was in the shade of a large tree and high bushes, so it was always pretty dark in there.
-
-And then I had it! I could make a clock that would display a picture of the moon when it was time for her to stay in her room, and a sun when it was time to get up. I began reading a new book: **The Self-Taught Programmer: The Definitive Guide to Programming Professionally** by Cory Althoff.  Things started making more sense.  I began to understand how I could use Python's tools to make the clock I wanted.  I wrote a very basic script that would keep track of the computer's time, and log out messages at certain times of day.
-
-I didn't know it at the time, but that was the moment when I finally got enough momentum to really begin my journey in software development in earnest.  I've been going ever since, and the posts that follow will focus on that project that got me started, the Picture Clock.  I've since renamed it twice, but those are stories for other posts.
+[This](https://github.com/jdorety/picture.clock) is the GitHub repo for that original clock project. It's pretty hacky for sure, but it was also the first time I successfully solved a problem using code!
 
 ![A picture of the Pyclock](./assets/pyclock2.jpg "PyClock2")
+
+Now I'm looking to make a better, more improved version, using all of the web development skills I've learned in the past 1-2 years. The rest of posts in this blog will deal with that project...
