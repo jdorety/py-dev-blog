@@ -23,12 +23,12 @@ export default function Template({ data, pageContext }) {
         <div className="post-links">
           {next && (
             <Link className="next-button nav-posts" to={next.frontmatter.path}>
-              Newer Post
+              Older Post
             </Link>
           )}
           {previous && (
             <Link className="previous-button nav-posts" to={previous.frontmatter.path}>
-              Older Post
+              Newer Post
             </Link>
           )}
         </div>

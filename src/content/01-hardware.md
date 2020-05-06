@@ -1,7 +1,7 @@
 ---
 title: Let's Talk Hardware
 author: Jonathan Dorety
-path: "/content/hardware"
+path: "/content/01-hardware"
 date: 01/21/2020
 ---
 
