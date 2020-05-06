@@ -1,7 +1,7 @@
 ---
 title: The Beginning
 author: Jonathan Dorety
-path: "/content/introduction"
+path: "/content/00-introduction"
 date: 01/03/2020
 ---
 
