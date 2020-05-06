@@ -11,7 +11,7 @@ The original PyClock source code is little more than a script that is always run
 
 ![Screenshot of Flask app code](./assets/2020-05-05-myapp.png "Flask App")
 
-So far, the Flask app is a series of mostly experimental endpoints, and some setup code to get the clock running. The `/flash` endpoint was to establishing that I could manipulate the lightboard with HTTP requests.
+So far, the Flask app is a series of mostly experimental endpoints, and some setup code to get the clock running. The `/flash` endpoint was key to establishing that I could manipulate the lightboard with HTTP requests.
 
 ![Screenshot of clock code](./assets/2020-05-05-chrono.png "The Clock")
 
