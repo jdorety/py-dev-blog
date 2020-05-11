@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  href="/test/test.md"
+>
+  <div
+    className="blog-link"
+  >
+    <h3>
+      Test title
+    </h3>
+  </div>
+</a>
+`;
